@@ -113,3 +113,114 @@ img {
 	font-weight: 600;
 	color: #f9995d;
 }
+
+.hero {
+	position: relative; /* нужно, чтобы позиционировать вложенные элементы */
+	padding: 72px 0;
+	background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 1) 0%,
+			rgba(255, 255, 255, 0.9) 25%,
+			rgba(255, 255, 255, 0.6) 50%,
+			rgba(255, 255, 255, 0.2) 75%,
+			rgba(255, 255, 255, 0) 100%
+		),
+		url('../images/hero-bg.png') center/cover no-repeat;
+	margin: 0 auto;
+}
+.hero-title {
+	margin: 239px 0;
+	font-weight: 600;
+	font-size: 72px;
+	color: #292e3d;
+	width: 556px;
+}
+.feature-projects-container {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	right: 0;
+	width: 416px;
+	height: 180px;
+	background-color: #3559c7;
+}
+.feature-title {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 20px 126px;
+}
+.feature-txt {
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	padding: 0 0 26px 0;
+}
+.feature-buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 1px;
+}
+.feature-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 4px 20px;
+	width: 50%;
+	height: 39px;
+	background: #292e3d;
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+.right-arrow {
+	transform: rotate(180deg);
+}
+
+.reasons {
+	padding: 60px 0 0 0;
+}
+.reasons-title {
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	color: #292e3d;
+	margin: 0 0 50px 0;
+}
+.reasons-list {
+	display: flex;
+	gap: 66px;
+	justify-content: center;
+}
+.reasons-item {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 18px;
+	border: 1.4px solid #e0e3eb;
+	border-radius: 4px;
+	padding: 20px 20px 40px;
+	width: 292px;
+	height: 197px;
+	background: #fff;
+}
+.reasons-subtitle {
+	font-weight: 700;
+	font-size: 20px;
+	color: #3d445c;
+}
+.reasons-text {
+	font-weight: 400;
+	font-size: 16px;
+	color: #858ead;
+}
+.reasons-icon {
+	display: flex;
+}
